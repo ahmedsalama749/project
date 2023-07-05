@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club|Shoes</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="bg-dark-subtle">
+    <!-- NevBar -->
+    <section class="container py-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+        <div class="container ">
+          <a class="navbar-brand text-uppercase" href="#">
+            <i class=" me-3 fa-brands fa-shopify fa-2xl"></i>Club Shoes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto w-50 justify-content-between mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Login</a>
+              </li>
+            </ul>
+            <div class="icons w-25 d-flex justify-content-evenly">
+              <i class="fa-solid fa-heart fa-xl"></i>
+              <a href="./cart.html" class="text-dark">
+                <i class="fa-solid fa-cart-shopping fa-xl"></i>
+              </a>
+              <i class="fa-solid fa-user fa-xl"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End NevBar -->
+    <!-- Header -->
+    <section class="container">
+      <div class="container position-relative">
+        <div class="icons position-absolute start-0  ">
+          <img src="./images/bg1.png" class="opacity-50 " width="100%" alt="" srcset="">
+        </div>
+        <div class="row">
+          <div class="col-md-4 m-auto p-3 h-25">
+            <h2 class="display-2 text-black">Nike Brands</h2>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Cumque nihil sapiente nesciunt laborum et nobis quas quidem, tenetur perferendis quam?</p>
+          </div>
+          <div class="col-lg-8 m-auto p-3 position-relative col-sm-12">
+            <div class="main_image">
+              <img src="./images/shoes.png">
+            </div>
+            <div class=" w-25 h-25 text-center py-2 end-0 top-50 position-absolute">
+              <a href="#"><i class="fa-brands fa-2x fa-facebook-f"></i></a>
+              <div class="py-2">
+                <a href="#"><i class="fa-brands fa-2x fa-twitter"></i></a>
+              </div>
+              <div class="py-2">
+                <a href="#"><i class="fa-brands fa-2x fa-instagram"></i></a>
+              </div>
+              <div class="py-2">
+                <a href="#"><i class="fa-brands fa-2x fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header  -->
+    <!-- Product -->
+    <div class="products w-25  m-auto rounded-5 my-2 text-center">
+      <h1 class="display-5 text-success-emphasis vip1">Products List</h1>
+    </div>
+    <!-- Start Card -->
+    <section class="container rounded-4">
+      <div class="container d-flex">
+        <div class="row mt-3 justify-content-around " id="root">
+          <div class="card mb-3 rounded-4" style="max-width: 540px; max-height: 400px;">
+            <div class="row g-0">
+              <div class=" col-sm-12 col-md-4 animition ">
+                <img src="./images/shoes1.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class=" col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike G33 </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">28$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4 " style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike T2 </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">23$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes3.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike S200 </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">20$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class=" col-sm-12 col-md-4">
+                <img src="./images/shoes4.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike B21 </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">25$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes5.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike Sport</h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">22$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes6.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike Runing </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">26$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes7.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Air Max </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">25$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-4">
+                <img src="./images/shoes8.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title display-5">Nike C21 </h5>
+                  <p class="card-text lead text-black-50">This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text lead fw-bold">Price : <span class="fs-2">23$</span> </p>
+                  <div>
+                    <button id="addCart" class="btn btn-success">Add Cart</button>
+                    <button id="deleteCart" class="btn btn-success">Delete Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Card -->
+    <!-- some img -->
+    <div class="container py-3 rounded-4 my-3 d-flex justify-content-between px-5 m-auto bg-secondary">
+      <img src="./images/red_shoes1.png" width="100" alt="" srcset="">
+      <img src="./images/red_shoes2.png" width="100" alt="" srcset="">
+      <img src="./images/red_shoes3.png" width="100" alt="" srcset="">
+      <img src="./images/red_shoes4.png" width="100" alt="" srcset="">
+    </div>
+    <!-- StartForm -->
+
+    <h2 class="text-center fs-1 fw-bolder text-success-emphasis w-25 m-auto vip1">Club Shoes</h2>
+    <section class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/logshoes.png" alt="" srcset="">
+        </div>
+        <div class="col-8 m-auto py-3">
+          <div class="col-12 bg-dark-subtle opacity-75">
+            <form class="row text-dark p-3 g-3" id="checkUser">
+              <div class="col-md-6 ">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button onclick="signIn()" type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- EndForm -->
+
+
+
+    <!-- Footer -->
+    <section class="container-fluid bg-dark-subtle mt-2">
+      <footer class="footer p-4  m-auto">
+        <div class="footer d-flex justify-content-between ">
+          <div class="tag ">
+            <h4>Contact</h4>
+            <ul class="list-unstyled ">
+              <li><a href="#"><i class="fa-solid fa-house"></i>Alexandria-Egypt</a></li>
+              <li><a href="#"><i class="fa-solid fa-phone"></i>201284747439</a></li>
+              <li><a href="#"><i class="fa-solid fa-envelope"></i>contact@gmail.com</a></li>
+            </ul>
+          </div>
+
+          <div class="tag">
+            <h4>Get Help</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="center">FAQ</a></li>
+              <li><a href="#" class="center">Shipping</a></li>
+              <li><a href="#" class="center">Returns</a></li>
+              <li> <a href="#" class="center">Payment Options</a></li>
+            </ul>
+          </div>
+
+          <div class="tag">
+            <h4>Our Stores</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="center">Egypt</a></li>
+              <li><a href="#" class="center">USA</a></li>
+              <li><a href="#" class="center">India</a></li>
+              <li> <a href="#" class="center">Japan</a></li>
+            </ul>
+          </div>
+
+          <div class="tag ">
+            <h4>Follw Us</h4>
+            <div class="social_link m-2">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+
+
+          <div class="tag">
+            <h4>Made by Developers</h4>
+            <ul class="list-unstyled">
+              <li>Youssef El-Khatab</li>
+              <li>Ahmed Salma</li>
+              <li>Ahmed Khaled</li>
+
+            </ul>
+          </div>
+
+
+
+      </footer>
+    </section>
+
+  </section>
+  <script src="./js/all.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./js/items.js"></script>
+
+</body>
+
+</html>
